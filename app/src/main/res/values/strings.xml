@@ -1,5 +1,13 @@
 <resources>
     <string name="app_name">Galerie d\'Art</string>
-    <string name="auteur">Willem van Haecht (1626)</string>
-    <string name="titre">kunstkammer, un "cabinet, une pièce réservée aux arts"</string>
+    <string name="auteur1">Willem van Haecht</string>
+    <string name="auteur2">Gustav Klimt</string>
+    <string name="auteur3">Vincent van Gogh</string>
+    <string name="date1">1626</string>
+    <string name="date2">1908"en dash"1909</string>
+    <string name="date3">1889</string>
+    <string name="titre1">kunstkammer, un "cabinet, une pièce réservée aux arts"</string>
+    <string name="titre2">Le baiser</string>
+    <string name="titre3">Nuit étoilée</string>
+
 </resources>
