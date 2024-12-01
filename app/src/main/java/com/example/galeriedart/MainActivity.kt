@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -23,8 +24,11 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -70,18 +74,24 @@ class MainActivity : ComponentActivity() {
             Spacer(modifier = Modifier.height(16.dp))
 
             Column(
-                modifier = Modifier,
+                modifier = Modifier.background(color = Color.LightGray),
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
                     text = stringResource(R.string.titre1),
-                    fontSize = 20.sp,
+                    fontSize = 16.sp,
                     textAlign = TextAlign.Center
                 )
                 Row(modifier = Modifier.fillMaxWidth()) {
                     Spacer(modifier = Modifier.weight(1f))
-                    Text(text = stringResource(currentImage.auteur), Modifier.padding(horizontal = 5.dp))
-                    Text(text = stringResource(currentImage.date), Modifier.padding(horizontal = 5.dp))
+                    Text(text = stringResource(currentImage.auteur),
+                        Modifier.padding(horizontal = 5.dp),
+                        fontSize = 12.sp,
+                        fontWeight = FontWeight.Bold)
+                    Text(text = stringResource(currentImage.date),
+                        Modifier.padding(horizontal = 5.dp),
+                        fontSize = 12.sp,
+                        fontStyle = FontStyle.Italic)
                     Spacer(modifier = Modifier.weight(1f))
                 }
             }
