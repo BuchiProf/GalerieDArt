@@ -1,13 +1,15 @@
 <resources>
     <string name="app_name">Galerie d\'Art</string>
-    <string name="auteur1">Willem van Haecht</string>
-    <string name="auteur2">Gustav Klimt</string>
-    <string name="auteur3">Vincent van Gogh</string>
-    <string name="date1">1626</string>
-    <string name="date2">1908"en dash"1909</string>
-    <string name="date3">1889</string>
-    <string name="titre1">kunstkammer, un "cabinet, une pièce réservée aux arts"</string>
-    <string name="titre2">Le baiser</string>
-    <string name="titre3">Nuit étoilée</string>
+    <string name="auteur1" translatable="false">Willem van Haecht</string>
+    <string name="auteur2" translatable="false">Gustav Klimt</string>
+    <string name="auteur3" translatable="false">Vincent van Gogh</string>
+    <string name="date1" translatable="false">1626</string>
+    <string name="date2" translatable="false">1908-1909</string>
+    <string name="date3" translatable="false">1889</string>
+    <string name="titre1" translatable="false">kunstkammer, un "cabinet, une pièce réservée aux arts"</string>
+    <string name="titre2">The Kiss</string>
+    <string name="titre3">Star Night</string>
+    <string name="btNext">Next</string>
+    <string name="btPrevious">Previous</string>
 
 </resources>
